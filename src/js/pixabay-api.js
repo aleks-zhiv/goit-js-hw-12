@@ -4,7 +4,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 export let perPage = 15;
 
-export function fetchImages(query, currentPage = 1) {
+export async function fetchImages(query, currentPage = 1) {
     const API_KEY = '49477848-89e25f92574c797f7074d31b9';
     const BASE_URL = 'https://pixabay.com/api/';
 
