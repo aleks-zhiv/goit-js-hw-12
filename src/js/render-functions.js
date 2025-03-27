@@ -21,8 +21,6 @@ export function refreshLightbox() {
 }
 
 export function renderGallery(container, images) {
-    container.innerHTML = '';
-
     const markup = images
     .map(
         ({
